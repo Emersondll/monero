@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  miner:
+    image: emersondll/monero-miner:v1.0.100
+    container_name: monero_miner
+    restart: unless-stopped
