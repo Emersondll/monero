@@ -1,0 +1,13 @@
+{
+  "name": "Monero Miner",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [],
+  "postCreateCommand": "docker compose up -d",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-azuretools.vscode-docker"]
+    }
+  }
+}
